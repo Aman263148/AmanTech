@@ -13,8 +13,6 @@ import {
 
 import { IoMdColorPalette } from "react-icons/io";
 
-// Replace with your image
-import bannerImage from "../assets/Logo.png";
 import { HashLink } from 'react-router-hash-link';
 
 const ServicesHero = () => {
