@@ -94,8 +94,8 @@ const Footer = () => {
         </h3>
 
         <div className="space-y-3 text-gray-400">
-          <p>📧 contact@amantech.com</p>
-          <p>📞 +91 XXXXX XXXXX</p>
+          <p>📧 amanparamjeetgupta@gmail.com</p>
+          <p>📞 +91 7668676844</p>
           <p>📍 India</p>
         </div>
 
@@ -145,14 +145,14 @@ const Footer = () => {
 
         <div className="flex gap-6 text-sm text-gray-500">
           <Link
-            to="/privacy-policy"
+            to="#"
             className="hover:text-indigo-400 transition duration-300"
           >
             Privacy Policy
           </Link>
 
           <Link
-            to="/terms"
+            to="#"
             className="hover:text-indigo-400 transition duration-300"
           >
             Terms & Conditions
