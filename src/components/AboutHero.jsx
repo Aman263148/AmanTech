@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import aboutHero from "../assets/about-hero.png"; // AI image
+import { Link } from "react-router-dom";
 
 const AboutHero = () => {
   return (
@@ -45,13 +46,13 @@ const AboutHero = () => {
           </p>
 
           <div className="flex flex-wrap gap-4 mt-10">
-            <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300">
+            <Link to={'/services'} className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300">
               Our Services
-            </button>
+            </Link>
 
-            <button className="bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300">
+            <Link to={'/contact'} className="bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300">
               Contact Us
-            </button>
+            </Link>
           </div>
         </motion.div>
 
