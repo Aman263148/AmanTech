@@ -4,7 +4,7 @@ import { IoClose } from "react-icons/io5";
 import { useState } from "react";
 import Logo from "../assets/logo.png";
 
-export default function Navbar() {
+const  Navbar= ()=> {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
@@ -127,3 +127,5 @@ export default function Navbar() {
 </nav>
   );
 }
+
+export default Navbar;
