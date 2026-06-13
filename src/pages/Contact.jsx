@@ -51,7 +51,7 @@ const Contact = () => {
                 <input
                   type="hidden"
                   name="_next"
-                  value={`${window.location.origin}/thank-you`}
+                  value={`https://aman-tech-six.vercel.app/thank-you`}
                 />
 
                 <input
